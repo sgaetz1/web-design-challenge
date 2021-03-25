@@ -1,3 +1,8 @@
+.container{
+  width: 1024;
+  margin: 0 auto;
+}
+
 body {
     background: #f1f1f1;
   }
@@ -31,7 +36,7 @@ h3 {
 
 .navbar li {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
@@ -41,7 +46,10 @@ h3 {
 
   .navbar li a {
     color: #000;
-    text-decoration: none;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace
+    
   }
 
   .background {
@@ -56,19 +64,67 @@ h3 {
     visibility:hidden;
   }
 
-  .image {
-    width: 100px;
-    height: 100px;
+  
+
+  .main {
+    float: left;
+    width: 60%;
+    padding:20px;
+  }
+
+  .figure {
+    position:relative;
   }
 
   .image_main {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
+    margin-right:20px;
+    float: left;
+    border: 1px solid blue;
+  }
+
+  .side {
+    width: 38%;
+    float: right;
+    padding:20px;
+  }
+
+  .box_set {
+    position:relative;
+    height:500px;
+    background:yellowgreen;
+  }
+
+  .image {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    padding:10px; 
+  }
+
+  #image-1 {
+    left:10px;
+    top:80px;
+  }
+
+  #image-2 {
+    bottom:10px;
+    left: 10px;
+  }
+
+  #image-3 {
+    top:80px;
+    right:10px;
+  }
+
+  #image-4 {
+    bottom:10px;
+    right:10px;
   }
 
 
-
-  @media (max-width: 600px) {
+  @media (max-width: 770px) {
     .navbar ul{
       visibility: hidden;
     }
@@ -77,3 +133,9 @@ h3 {
       visibility:visible;
     }
   
+    .main {
+      width:100%;
+    }
+    .side {
+      width: 100%;
+    }

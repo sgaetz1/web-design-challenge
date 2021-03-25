@@ -1,90 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Latitude</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Review</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
 
 <body>
-
   <div class="container">
-    <nav class="navbar">
-      <ul>
+    <div class="navbar">
+      <h1 id="heading">Latitude</h1>
+      <ul class="nav">
+        
         <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
+          <div class="btn-group">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                    Plots
+                    <span class="caret"></span>
+            </a>
+           
+            <ul class="dropdown-menu ">
+              
+              <li>
+                <a href="Resources/assets_images/fig1">Temperature</a>
+              </li>
+
+              <li>
+                <a href="Resources/assets_images/fig2">Humidity</a>
+              </li>
+
+              <li>
+                <a href="Resources/assets_images/fig3">Cloudiness</a>
+              </li>
+
+              <li>
+                <a href="Resources/assets_images/fig4">Wind Speed</a>
+              </li>
+            </ul>
+          </div>
+
+         
+        <li><a href="#">Comparison</a></li>
+        <li><a href="#">Data</a></li>
       </ul>
+
       <select id="nav-select">
-        <option value="home">Home</option>
-        <option value="about">About</option>
-        <option value="portfolio">Portfolio</option>
-        <option value="contact">Contact</option>
+        <option value="Menu">Menu</option>
+        <option value="Plots">Plots</option>
+        <option value="Comparison">Comparison</option>
+        <option value="Data">Data</option>
       </select>
-      <div class="clearfix"></div>
-    </nav>
-    <header class="header">
-      <h1>Welcome</h1>
-    </header>
-    <main>
-      <section class="posts">
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-        <article class="post">
-          <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
-          <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
-            Ullamco nulla nulla cillum elit reprehenderit officia magna excepteur. Fugiat occaecat veniam eu amet veniam tempor fugiat magna exercitation amet veniam mollit pariatur. Minim adipisicing cupidatat est do est id ex reprehenderit quis enim
-            elit consectetur sint.
-          </p>
-        </article>
-      </section>
-    </main>
+    </div>
   </div>
 
-</body>
+  <!-- main section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-med-6 main">
+        
+        <h2>Summary: Latitude vs. X</h2>
+        <hr>
+        <section class="figure">
+          <img class="image_main" src="Resources/assets_images/fig1.png" alt="Temperature">
+        </section>
+        <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
+      </div>
 
+      <!-- visualizations -->
+      
+      <div class="col-sm-12 col-med-4 side box_set">
+        
+          <h3>Visualizations</h3>
+          <hr>
+            
+                <a href="#" class="thumbnail">
+                  <img id="image-1" class="image" src="Resources/assets_images/fig1.png" alt="fig 1">
+                </a>
+              
+                <a href="#" class="thumbnail">
+                  <img id="image-2" class="image" src="Resources/assets_images/fig2.png" alt="fig 2">
+                </a>
+              
+                <a href="#" class="thumbnail">
+                  <img id="image-3" class="image" src="Resources/assets_images/fig3.png" alt="fig 3">
+                </a>
+                
+                <a href="#" class="thumbnail">
+                  <img id="image-4" class="image" src="Resources/assets_images/fig4.png" alt="fig 4">
+                </a>
+              
+      </div>
+    </div>
+  </div>
+
+    
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>

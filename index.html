@@ -11,19 +11,20 @@
 <body>
   <div class="container">
     <div class="navbar">
-      <h1 id="heading">Steve you suck.</h1>
+      <h1 id="heading">Latitude</h1>
       <ul class="nav">
         
-        <li><a href="#">Plots</a></li>
+        <li>
           <div class="btn-group">
             <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-              Plots
-              <span class="caret"></span>
+                    Plots
+                    <span class="caret"></span>
             </a>
-            <ul class="dropdown-menu">
+           
+            <ul class="dropdown-menu ">
               
               <li>
-              <a href="Resources/assets_images/fig1">Temperature</a>
+                <a href="Resources/assets_images/fig1">Temperature</a>
               </li>
 
               <li>
@@ -39,9 +40,12 @@
               </li>
             </ul>
           </div>
+
+         
         <li><a href="#">Comparison</a></li>
         <li><a href="#">Data</a></li>
       </ul>
+
       <select id="nav-select">
         <option value="Menu">Menu</option>
         <option value="Plots">Plots</option>
@@ -51,65 +55,41 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class ="row">
-      <div class ="col-sm-12 col-md-6 background">
-        <h2>Summary: Latitude vs. X</h2>
-        <hr>
-        <ul class="media-list">
-          <li class="media">
-            <a class="pull-left" href="#">
-              <img class="image_main" src="Resources/assets_images/fig1.png" alt="fig1">
-            </a>
-            <div>
-              <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-2">
+  <!-- main section -->
+  <main class="container">
+    <section class="main">
+      <h2>Summary: Latitude vs. X</h2>
+      <hr>
+      <section class="figure">
+        <img class="image_main" src="Resources/assets_images/fig1.png" alt="Temperature">
+      </section>
+      <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
+    </section>
 
-      </div>
-      <div class ="col-sm-12 col-md-4 background">
-        <section>
+      <!-- visualizations -->
+      
+      <aside class="side box_set">
           <h3>Visualizations</h3>
           <hr>
-          
-            <ul>
-
-              <li>
-                <a href="#" class="thumbnail">
-                  <img class="image" src="Resources/assets_images/fig1.png" alt="fig 1">
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="thumbnail">
-                  <img class="image" src="Resources/assets_images/fig2.png" alt="fig 2">
-                </a>
-              </li>  
-
-              <li>
-                <a href="#" class="thumbnail">
-                  <img class="image" src="Resources/assets_images/fig3.png" alt="fig 3">
-                </a>
-              </li>
-
-              <li>  
-                <a href="#" class="thumbnail">
-                  <img class="image" src="Resources/assets_images/fig4.png" alt="fig 4">
-                </a>
-              </li>
-
             
-            </ul>
-          </div>
-        </section>
-      </div>
-    </div>
-
-
-  </div>
+                <a href="#" class="thumbnail">
+                  <img id="image-1" class="image" src="Resources/assets_images/fig1.png" alt="fig 1">
+                </a>
+              
+                <a href="#" class="thumbnail">
+                  <img id="image-2" class="image" src="Resources/assets_images/fig2.png" alt="fig 2">
+                </a>
+              
+                <a href="#" class="thumbnail">
+                  <img id="image-3" class="image" src="Resources/assets_images/fig3.png" alt="fig 3">
+                </a>
+                
+                <a href="#" class="thumbnail">
+                  <img id="image-4" class="image" src="Resources/assets_images/fig4.png" alt="fig 4">
+                </a>
+              
+      </aside>
+  </main>
 
     
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
