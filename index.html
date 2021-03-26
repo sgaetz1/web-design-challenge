@@ -11,7 +11,9 @@
 <body>
   <div class="container">
     <div class="navbar">
-      <h1 id="heading">Latitude</h1>
+      <h1 id="heading">
+        <a href="index.html">Latitude</a>
+      </h1>
       <ul class="nav">
         
         <li>
@@ -24,72 +26,85 @@
             <ul class="dropdown-menu ">
               
               <li>
-                <a href="Resources/assets_images/fig1">Temperature</a>
+                <a href="html/temperature.html">Temperature</a>
               </li>
 
               <li>
-                <a href="Resources/assets_images/fig2">Humidity</a>
+                <a href="html/humidity.html">Humidity</a>
               </li>
 
               <li>
-                <a href="Resources/assets_images/fig3">Cloudiness</a>
+                <a href="html/cloudiness.html">Cloudiness</a>
               </li>
 
               <li>
-                <a href="Resources/assets_images/fig4">Wind Speed</a>
+                <a href="html/wind_speed.html">Wind Speed</a>
               </li>
             </ul>
           </div>
 
          
-        <li><a href="#">Comparison</a></li>
-        <li><a href="#">Data</a></li>
+        <li><a href="html/comparisons.html">Comparisons</a></li>
+        <li><a href="html/data.html">Data</a></li>
       </ul>
 
+      <!-- small screen dropdown menu -->
       <select id="nav-select">
-        <option value="Menu">Menu</option>
-        <option value="Plots">Plots</option>
-        <option value="Comparison">Comparison</option>
-        <option value="Data">Data</option>
+        <option value="Plots">Plots:</option>
+        <option value="Temperature">Temperature</option>
+        <option value="Humidity">Humidity</option>
+        <option value="Cloudiness">Cloudiness</option>
+        <option value="Wind Speed">Wind Speed</option>
+        <option value="Comparison">Comparisons</option>
+        <a href="html/data/html">data
+          <option value="Data">Data</option>
+        </a>
       </select>
     </div>
   </div>
 
   <!-- main section -->
-  <main class="container">
-    <section class="main">
-      <h2>Summary: Latitude vs. X</h2>
-      <hr>
-      <section class="figure">
+  <div class="container">
+    <div class="row">
+      <div class="col-med-6 main">
+        
+        <h2>Summary: Latitude vs. X</h2>
+        <hr>
+        
         <img class="image_main" src="Resources/assets_images/fig1.png" alt="Temperature">
-      </section>
-      <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
-    </section>
+        
+        <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.Ut viverra, augue vel sagittis vehicula, orci dui sodales magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in augue lacinia, elementum diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur consectetur dui eget finibus malesuada. Nam quis nulla odio. Vivamus non ligula erat. Suspendisse commodo odio sed magna tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
+      </div>
 
+      <!-- <div class="col-med-2">
+
+      </div> -->
       <!-- visualizations -->
       
-      <aside class="side box_set">
+      <div class="col-med-4 side box_set">
+        
           <h3>Visualizations</h3>
           <hr>
             
-                <a href="#" class="thumbnail">
-                  <img id="image-1" class="image" src="Resources/assets_images/fig1.png" alt="fig 1">
-                </a>
+          <a href="html/temperature.html" class="thumbnail">
+            <img id="image-1" class="image" src="Resources/assets_images/fig1.png" alt="temperature">
+          </a>
               
-                <a href="#" class="thumbnail">
-                  <img id="image-2" class="image" src="Resources/assets_images/fig2.png" alt="fig 2">
-                </a>
+          <a href="html/humidity.html" class="thumbnail">
+            <img id="image-2" class="image" src="Resources/assets_images/fig2.png" alt="humidity">
+          </a>
               
-                <a href="#" class="thumbnail">
-                  <img id="image-3" class="image" src="Resources/assets_images/fig3.png" alt="fig 3">
-                </a>
+          <a href="html/cloudiness.html" class="thumbnail">
+            <img id="image-3" class="image" src="Resources/assets_images/fig3.png" alt="cloudiness">
+          </a>
                 
-                <a href="#" class="thumbnail">
-                  <img id="image-4" class="image" src="Resources/assets_images/fig4.png" alt="fig 4">
-                </a>
+          <a href="html/wind_speed.html" class="thumbnail">
+            <img id="image-4" class="image" src="Resources/assets_images/fig4.png" alt="wind speed">
+          </a>
               
-      </aside>
-  </main>
+      </div>
+    </div>
+  </div>
 
     
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
