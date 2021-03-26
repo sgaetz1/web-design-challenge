@@ -69,15 +69,15 @@ h3 {
   .main {
     float: left;
     width: 60%;
-    padding:20px;
+    padding:10px;
   }
 
-  .figure {
-    position:relative;
-  }
+  
+  
 
   .image_main {
-    width: 300px;
+    position:relative;
+    width: 350px;
     height: 250px;
     margin-right:20px;
     float: left;
@@ -85,7 +85,7 @@ h3 {
   }
 
   .side {
-    width: 38%;
+    width: 30%;
     float: right;
     padding:20px;
   }
@@ -93,13 +93,14 @@ h3 {
   .box_set {
     position:relative;
     height:500px;
+    width:441px;
     background:yellowgreen;
   }
 
   .image {
     position:absolute;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     padding:10px; 
   }
 
@@ -125,17 +126,26 @@ h3 {
 
 
   @media (max-width: 770px) {
-    .navbar ul{
-      visibility: hidden;
-    }
+  .navbar ul{
+    visibility: hidden;
+  }
   
-    #nav-select{
-      visibility:visible;
-    }
+  #nav-select{
+    visibility:visible;
+    position:absolute;
+    top:40px;
+    right:40px;
+  }
   
-    .main {
-      width:100%;
-    }
-    .side {
-      width: 100%;
-    }
+  .main {
+    width:100%;
+  }
+
+  .side {
+    width:100%;
+  }
+
+  .navbar {
+    height: 110px;
+  }
+    
