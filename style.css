@@ -29,13 +29,13 @@ h4 {
     font-family:'Courier New', Courier, monospace;
 }
 
-.navbar {
-  padding: 10px;
-  background: gray;
+#latitude {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
 }
 
 .nav {
-    margin-left: 300px;
+    background:turquoise;
 }
 
 .navbar li {
@@ -64,7 +64,7 @@ h4 {
 
   }
 
-  #nav-select {
+  #drop-hide {
     visibility:hidden;
   }
 
@@ -174,11 +174,11 @@ h4 {
 
 
   @media (max-width: 770px) {
-  .navbar ul{
+  /* .navbar ul{
     visibility: hidden;
-  }
+  } */
   
-  #nav-select{
+  #drop-hide{
     visibility:visible;
     position:absolute;
     top:40px;
@@ -195,6 +195,7 @@ h4 {
 
   .navbar {
     height: 110px;
+    background:turquoise;
   }
     
   
