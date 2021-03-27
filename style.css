@@ -34,10 +34,6 @@ h4 {
   font-size: 40px;
 }
 
-.nav {
-    background:turquoise;
-}
-
 .navbar li {
     display: inline-block;
     padding: 10px;
@@ -64,20 +60,11 @@ h4 {
 
   }
 
-  #drop-hide {
-    visibility:hidden;
-  }
-
-  
-
   .main {
     float: left;
     width: 60%;
     padding:10px;
   }
-
-  
-  
 
   .image_main {
     position:relative;
@@ -182,17 +169,8 @@ h4 {
 
 
   @media (max-width: 770px) {
-  /* .navbar ul{
-    visibility: hidden;
-  } */
   
-  #drop-hide{
-    visibility:visible;
-    position:absolute;
-    top:40px;
-    right:40px;
-  }
-  
+
   .main {
     width:100%;
   }
@@ -201,9 +179,4 @@ h4 {
     width:100%;
   }
 
-  .navbar {
-    height: 110px;
-    background:turquoise;
-  }
-    
   
