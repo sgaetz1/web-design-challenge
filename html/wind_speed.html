@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Latitude</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h1 id="heading">
+          <a href="../index.html">Latitude</a>
+        </h1>
+        <ul class="nav">
+
+          <li>
+            <div class="btn-group">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Plots
+                <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu">
+
+                <li>
+                  <a href="temperature.html">Temperature</a>
+                </li>
+
+                <li>
+                  <a href="humidity.html">Humidity</a>
+                </li>
+
+                <li>
+                  <a href="cloudiness.html">Cloudiness</a>
+                </li>
+
+                <li>
+                  <a href="wind_speed.html">Wind Speed</a>
+                </li>
+              </ul>
+            </div>
+
+
+            <li><a href="comparisons.html">Comparisons</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+
+          <!-- small screen dropdown menu -->
+          <select id="nav-select" class="dropdown">
+            <ul class="dropdown-menu">
+              <option value="Plots">Plots:</option>
+              <option value="Temperature">Temperature</option>
+              <option value="Humidity">Humidity</option>
+              <option value="Cloudiness">Cloudiness</option>
+              <option value="Wind Speed">Wind Speed</option>
+              <option value="Comparison">Comparisons</option>
+              <option value="Data">Data</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- main section -->
+        <div class="container">
+          <div class="row">
+            <div class="col-med-6 main">
+
+              <h2>Wind Speed vs. Latitude</h2>
+              <hr>
+
+              <img class="image_main" src="../Resources/assets_images/fig4.png"
+                alt="Wind Speed vs. Latitude Plot">
+
+              <p>Ut viverra, augue vel sagittis vehicula, orci dui sodales
+                magna, lacinia pulvinar lorem magna ac mauris. Suspendisse in
+                augue lacinia, elementum diam a, varius ipsum. Donec maximus
+                bibendum mauris. Curabitur consectetur dui eget finibus
+                malesuada. Nam quis nulla odio. Vivamus non ligula erat.
+                Suspendisse commodo odio sed magna tempor consequat. Morbi
+                semper id justo vitae sollicitudin.Ut viverra, augue vel
+                sagittis vehicula, orci dui sodales magna, lacinia pulvinar
+                lorem magna ac mauris. Suspendisse in augue lacinia, elementum
+                diam a, varius ipsum. Donec maximus bibendum mauris. Curabitur
+                consectetur dui eget finibus malesuada. Nam quis nulla odio.
+                Vivamus non ligula erat. Suspendisse commodo odio sed magna
+                tempor consequat. Morbi semper id justo vitae sollicitudin.</p>
+            </div>
+
+            <!-- visualizations -->
+
+            <div class="col-med-4 side box_set">
+
+              <h3>Visualizations</h3>
+              <hr>
+
+              <a href="temperature.html" class="thumbnail">
+                <img id="image-1" class="image"
+                  src="../Resources/assets_images/fig1.png" alt="temperature">
+              </a>
+
+              <a href="humidity.html" class="thumbnail">
+                <img id="image-2" class="image"
+                  src="../Resources/assets_images/fig2.png" alt="humidity">
+              </a>
+
+              <a href="cloudiness.html" class="thumbnail">
+                <img id="image-3" class="image"
+                  src="../Resources/assets_images/fig3.png" alt="cloudiness">
+              </a>
+
+              <a href="wind_speed.html" class="thumbnail">
+                <img id="image-4" class="image"
+                  src="../Resources/assets_images/fig4.png" alt="wind speed">
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+          crossorigin="anonymous"></script>
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+      </body>
+    </html>
