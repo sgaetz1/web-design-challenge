@@ -1,7 +1,7 @@
 # web-design-challenge
 
 This is a git repository for my html/css homework.
-
+Url for the site is https://sgaetz1.github.io/web-design-challenge/.
 The Resources folder contains cities.csv and an assets_images folder which includes the scatterplots used on the web site.
 The html folder contains all the html for all the required pages of the assignment, except for index.html which is the main page.
 Csv_to_html.ipynb contains the jupyter notebook that I used to write the python code to convert the csv file to an html table. The html code to build the table is 
